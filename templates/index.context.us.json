@@ -1,0 +1,31 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "us"
+  },
+  "sections": {
+    "image_banner": {
+      "settings": {
+      },
+      "blocks": {
+        "text_hwtep": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button",
+        "text_hwtep"
+      ]
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection"
+  ]
+}
